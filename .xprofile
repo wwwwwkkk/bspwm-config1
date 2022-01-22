@@ -1,0 +1,13 @@
+nitrogen --restore &
+sleep 3
+
+FONT2="DejaVu Sans Mono:style=Book"
+FONT3="DejaVu Sans Mono:style=Regular"
+FONT="DejaVu Sans Mono:size=10"
+COLOR="#282828"
+FONTCOLOR="#ebdbb2"
+
+GEO="2256x35"
+
+
+~/bar.sh | lemonbar-xft -p -g "$GEO" -B "$COLOR" -F $FONTCOLOR -f "$FONT" -f "$FONT2" -f "$FONT3" &
